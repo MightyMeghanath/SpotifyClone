@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Inclusive+Sans&family=Nunito&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: rgb(230, 224, 217);
+}
+nav ul li{
+    padding: 0 12px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 70px ;
+    background-color: black;  
+    font-size: x-large; 
+    font-family: 'Nunito', sans-serif;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+.container{
+    min-height: 73vh;
+    background-color: black;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    margin: 10px auto;
+    border-radius: 14px;
+    width: 65vw;
+    padding: 12px 0px 0px 10px;
+    background-image: url("./istockphoto-1131388965-170667a.jpg");
+    background-size: cover;
+}
+.musicItem{
+   height: 9vh;
+   width: 32vw;
+   background-color: rgb(12, 1, 8);
+   color: white;
+   margin-top: 5px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   border-radius: 10px;
+}
+.musicItem:hover{
+    border: 2px solid white;
+}
+.bottom{
+    position: sticky;
+    bottom: 3px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    width: 70vh;
+    cursor: pointer;
+}
+.musicItem img{
+    border-radius: 50%;
+}
+i{
+    margin-top: 10px;
+    padding: 0px 2.5px 0px 2.5px;
+}
+.songInfo{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
